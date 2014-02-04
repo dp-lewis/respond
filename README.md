@@ -13,6 +13,6 @@ Examples
 
 * [Do Nothing](http://www.david-lewis.com/respond/do-nothing.html)
 * [Toggle](http://www.david-lewis.com/respond/toggle.html)
-* [Fly Out](http://www.david-lewis.com/respond/toggle.html)
+* [Fly Out](http://www.david-lewis.com/respond/flyout.html)
 
 Enjoy!
