@@ -1,0 +1,23 @@
+.navbar,
+.brand {
+	text-align: center;
+}
+
+.navbar--items li {
+	display: inline-block;
+}
+
+@media screen and (min-width: 40em) {
+	.brand {
+		float: left;
+		width: 20%;
+	}
+	.navbar {
+		float: left;
+		width: 80%;
+	}
+	.navbar--items li {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}

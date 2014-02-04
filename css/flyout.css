@@ -1,0 +1,59 @@
+.button-toggle {
+  position: fixed;
+}
+
+.navbar--items li {
+  display: block;
+}
+
+.navbar {
+  position: fixed;
+  bottom: 0;
+  right: 0;  
+  top: 0;  
+  width: 66%;
+  padding-top: 3em;
+  -webkit-transform: translate(100%, 0); 
+}
+
+.navbar, 
+.content, 
+.brand {
+  transition: -webkit-transform ease-in 300ms;  
+}
+.content,
+.button-toggle.is-on ~ .navbar {
+  -webkit-transform: translate(0, 0);  
+}
+.button-toggle.is-on ~ .brand,
+.button-toggle.is-on ~ .content {
+  -webkit-transform: translate(-66%, 0);
+}
+
+
+
+@media screen and (min-width: 40em) {
+  .button-toggle {
+    display: none;
+  }
+  .brand {
+    float: left;
+    width: 15%;
+  }
+  .navbar {
+    position: relative;
+    width: 85%;
+    padding-top: 0;
+    float: left;
+  }
+  .navbar--items li {
+    display: inline-block;
+    padding: 0 1.5%;
+  }  
+  .navbar,
+  .brand,
+  .button-toggle.is-on ~ .brand,
+  .button-toggle.is-on ~ .content {
+    -webkit-transform: translate3d(0, 0, 0);    
+  }
+}

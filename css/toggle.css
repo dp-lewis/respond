@@ -1,0 +1,27 @@
+.navbar {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height ease-in 300ms;
+}
+
+.button-toggle.is-on {
+  background: #222;
+}
+
+.button-toggle.is-on ~ .navbar {
+  max-height: 1000px;     
+}
+
+@media screen and (min-width: 40em) {
+  .navbar {
+    max-height: 1000px;
+  }
+
+  .button-toggle {
+    display: none;
+  } 
+
+  .navbar--items > li {
+    display: inline-block;
+  }
+}

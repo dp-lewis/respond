@@ -1,0 +1,95 @@
+body {
+  font-family:sans-serif;
+  margin:0;
+  padding:0;
+  width: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+h1 {
+  font-weight: 300;
+}
+
+a {
+  text-decoration:none;
+}
+
+p {
+  line-height: 1.33em;
+}
+
+.brand, .navbar, .toggle {
+  color: #fff;
+  background: #333;
+  box-sizing: border-box;
+}
+
+.navbar {
+	background: #222;
+}
+
+.brand {
+	text-transform: uppercase;
+}
+
+.button-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  font-size: 1em;
+  background: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 1em;
+  margin: 0;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.content, .brand, .toggle {
+    padding: 1em;
+}
+
+.content {
+	clear: both;
+}
+
+.navbar a {
+  color:#fff;
+}
+
+.navbar--items {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.navbar--items > li {
+	padding: 0;
+	margin: 0;
+  position: relative;
+}
+
+.navbar--items > li a:active {
+	background: #000;
+}
+
+.navbar--items a {
+	display: block;
+	padding: 1em;
+}
+
+@media screen and (min-width: 40em) {
+
+  .navbar {
+    padding-top: 0;
+    position: static;
+  }
+
+  .navbar--items > li {
+   display: inline-block;
+  }
+
+}
