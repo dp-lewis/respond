@@ -1,7 +1,7 @@
 Respond 2014
 ============
 
-All the code featured in my Respond 2014 presentation.
+All the code featured in my [Respond 2014 presentation](http://www.slideshare.net/mrdplewis/responsive-navigation-patterns-respond-2014).
 
 This code is written to be quite minimalist, and I'd recommend structuring things a little differently in real life.
 
